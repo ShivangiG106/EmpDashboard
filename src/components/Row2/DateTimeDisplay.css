@@ -1,0 +1,53 @@
+.DateTimeDisplay-container {
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    /* width: 200px; */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .DateTimeDisplay-top-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .DateTimeDisplay-event-icon {
+    font-size: 30px;
+    color: #a59ff1;
+    margin-right: 10px;
+  }
+  
+  .DateTimeDisplay-time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a5bbf;
+  }
+  
+  .DateTimeDisplay-date {
+    font-size: 10px;
+    color: #888;
+  }
+  
+  .DateTimeDisplay-bottom-section {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #666;
+  }
+  
+  .DateTimeDisplay-access-time-icon {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-right: 4px;
+  }
+  
+  .DateTimeDisplay-class-name {
+    margin-right: 8px;
+  }
+  
+  .DateTimeDisplay-time-range {
+    color: #888;
+  }
+  

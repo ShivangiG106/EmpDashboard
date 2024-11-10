@@ -1,0 +1,22 @@
+/* commonStyles.css */
+
+/* Common box styling with padding, shadow, and background */
+.content-box {
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 0.3rem;
+  }
+  
+  /* Responsive padding for content-box */
+  @media (max-width: 768px) {
+    .content-box {
+      padding: 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content-box {
+      padding: 4px;
+    }
+  }

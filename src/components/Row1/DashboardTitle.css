@@ -1,0 +1,26 @@
+/* DashboardTitle.css */
+
+/* Basic styling for the title */
+.dashboard-title {
+    color: #0000AE;
+    padding: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: start;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .dashboard-title {
+      font-size: 20px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-title {
+      font-size: 18px;
+      padding: 6px;
+    }
+  }
+  

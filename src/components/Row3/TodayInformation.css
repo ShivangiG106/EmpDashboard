@@ -1,0 +1,40 @@
+/* TodayInformation.css */
+
+.today-info-container {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .today-info-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .info-count {
+    color: #1d4ed8; /* Blue color */
+    font-weight: bold;
+    font-size: 18px;
+    width: 30px; /* Fixed width to align numbers */
+    text-align: right;
+  }
+  
+  .divider {
+    margin: 0 0.5rem;
+    color: #ccc; /* Light gray for divider */
+  }
+  
+  .info-label {
+    color: #333;
+    flex-grow: 1;
+  }
+  
